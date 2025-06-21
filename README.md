@@ -1,2 +1,1 @@
-# QuantumDocs
-Document security startup.
+# securedoc

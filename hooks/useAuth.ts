@@ -42,6 +42,8 @@ export function useAuth() {
     localStorage.removeItem("quantum_keys")
     setUser(null)
     setKeys(null)
+    // Redirect to home page after logout
+    window.location.href = "/"
   }
 
   return {

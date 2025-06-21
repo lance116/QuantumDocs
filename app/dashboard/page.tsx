@@ -423,15 +423,7 @@ function DashboardPageContent() {
                     <span className="text-gray-300">Private Key:</span>
                     <span className="text-blue-400">✓ Local Storage</span>
                   </div>
-                  <p className="text-xs text-gray-400 font-mono break-all">Pub: {generateRandomCiphertext(24)}...</p>
                 </div>
-                <Button
-                  size="sm"
-                  variant="outline"
-                  className="border-purple-500 text-purple-300 hover:bg-purple-500/10 mt-3"
-                >
-                  Regenerate Keys
-                </Button>
               </div>
               <div className="p-4 bg-purple-600/20 rounded-lg">
                 <h4 className="text-white font-medium mb-2">Dilithium Key Pair</h4>
@@ -444,15 +436,7 @@ function DashboardPageContent() {
                     <span className="text-gray-300">Private Key:</span>
                     <span className="text-blue-400">✓ Local Storage</span>
                   </div>
-                  <p className="text-xs text-gray-400 font-mono break-all">Pub: {generateRandomCiphertext(24)}...</p>
                 </div>
-                <Button
-                  size="sm"
-                  variant="outline"
-                  className="border-purple-500 text-purple-300 hover:bg-purple-500/10 mt-3"
-                >
-                  Regenerate Keys
-                </Button>
               </div>
             </div>
 
